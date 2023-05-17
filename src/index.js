@@ -13,6 +13,8 @@ ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle />
+      {/* <Example1/> */}
+      {/* прокидуемо items={publications} масив, пропси */}
       <Reader items={publications} />
     </ThemeProvider>
   </React.StrictMode>,
